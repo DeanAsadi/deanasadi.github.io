@@ -14,7 +14,7 @@ class Home extends Component {
           <br />
           My objective is simply to be the best web developer that I can be and
           contribute to the technology industry all that I know and can do. I am
-          perfecting my craft by learning from seasoned we developer, remaining
+          perfecting my craft by learning from seasoned web developer, remaining
           humble and continuously making strides to learn all that I can about
           web development.
         </p>
