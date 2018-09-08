@@ -146,10 +146,10 @@ class Code extends Component {
             </a>
             <PortAllText>
               <PortTitleContainer>
-                <PortTitle>About Website</PortTitle>
+                <PortTitle>personal project</PortTitle>
                 <PortButtonContainer>
                   <PortButton href="http://linkzone.world/" target="_blank">
-                    Demo
+                    Website
                   </PortButton>
                   <PortButton
                     href="https://github.com/Engwebdev/personal-project"
@@ -159,14 +159,39 @@ class Code extends Component {
                   </PortButton>
                 </PortButtonContainer>
               </PortTitleContainer>
+              <br />
+              Description
+              <br />
+              <br />
+              LinkZone: Because networking is the best way to grow!
+              <br />
+              LinkZone is a website that allows you to create your profile and
+              add your experiences , job history & more.
+              <br />
+              <br />
+              JWT was used for authentication, without logging in you will be
+              able to view other people's profile but you will NOT be able to
+              create your own profile or chat with others.
+              <br />
+              <br />
+              As a new user you will have to sign up first and then login, once
+              you logged in you can create your profile and you can also chat
+              with other people to grow your network.
+              <br />
+              <br />
+              Please feel free to click on the WEBSITE button to view all the
+              other features.
               <PortDescription>
-                Technology were used in my personal project
+                Technology were used in this project:
               </PortDescription>
               <PortDescription />
               <UsedList>
                 <UsedItem>React.js</UsedItem>
                 <UsedItem>Redux.js</UsedItem>
+                <UsedItem>CSS</UsedItem>
+                <UsedItem>Bootstrap</UsedItem>
                 <UsedItem>Node.js</UsedItem>
+                <UsedItem>Express</UsedItem>
                 <UsedItem>MongoDB</UsedItem>
               </UsedList>
             </PortAllText>
@@ -174,14 +199,14 @@ class Code extends Component {
           <hr />
           <PortRow>
             <a href="https://okcollab.herokuapp.com/" target="_blank">
-              <CodeThumbnail src={require("../assets/GroupProject.jpg")} />
+              <CodeThumbnail src={require("../assets/GroupProject.png")} />
             </a>
             <PortAllText>
               <PortTitleContainer>
                 <PortTitle>Group project</PortTitle>
                 <PortButtonContainer>
-                  <PortButton href="http://fetchtech.online/" target="_blank">
-                    Demo
+                  <PortButton href="http://fetch-tech.com" target="_blank">
+                    Website
                   </PortButton>
                   <PortButton
                     href="https://github.com/fetch-tech/fetch-tech"
@@ -192,13 +217,42 @@ class Code extends Component {
                 </PortButtonContainer>
               </PortTitleContainer>
               <PortDescription>Description</PortDescription>
+              Fetch Tech: The ultimate source to get all of your daily tech
+              news.
+              <br />
+              <br />
+              <br />
+              NOTE: You will NOT be able to navigate away from this landing page
+              and throughout the rest of the website without logging in.
+              <br />
+              <br />
+              Logging In: Upon clicking the login button, you'll be redirected
+              to an Auth0 login page, where you can either login using a
+              Google/GitHub account, or sign up. We recommend signing in with
+              either your Google or Github account since the feature that
+              handles signing up with an email and creating a password does not
+              currently work.
+              <br />
+              <br />
+              NOTE: If you sign in with your Google/GitHub account, it is
+              important to know that we DO NOT get ANY of your account
+              information except for the name associated with your Google/GitHub
+              account. This means we DO NOT get any PASSWORDS or any other
+              private information. We only use the name associated with the
+              account in order to create a unique user experience for the logged
+              in user.
+              <br />
+              <br />
+              Please feel free to click on the WEBSITE button to review all the
+              other features.
               <PortDescription>
-                Technology were used in this project :
+                Technology were used in this project:
               </PortDescription>
               <UsedList>
                 <UsedItem>React.js</UsedItem>
                 <UsedItem>Redux.js</UsedItem>
                 <UsedItem>CSS</UsedItem>
+                <UsedItem>Bootstrap</UsedItem>
                 <UsedItem>Node.js</UsedItem>
                 <UsedItem>Express</UsedItem>
                 <UsedItem>PostgreSQL</UsedItem>

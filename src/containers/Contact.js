@@ -31,7 +31,7 @@ class Contact extends Component {
   render() {
     return (
       <div>
-        <CenteredHeader>Looking forward to hearing form you!!!</CenteredHeader>
+        <CenteredHeader>Looking forward to hearing form you!</CenteredHeader>
 
         <FormDiv>
           <form
